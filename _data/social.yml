@@ -2,3 +2,15 @@
   link: 'https://www.facebook.com/leotan123'
   social_icon: Facebook
   new_window: true
+- name: Twitter
+  link: 'https://twitter.com/LeolandoTan'
+  social_icon: Twitter
+  new_window: true
+- name: GitHub
+  link: 'https://github.com/leolandotan'
+  social_icon: GitHub
+  new_window: true
+- name: LinkedIn
+  link: 'https://www.linkedin.com/in/leolandotan/'
+  social_icon: LinkedIn
+  new_window: true
