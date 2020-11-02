@@ -24,8 +24,7 @@ github_username: leolandotan
 locale: en
 author:
   name: Leolando Tan
-site:
-  google_analytics_key: UA-143414822-1
+google_analytics_key: UA-143414822-1
 
 # Build settings
 markdown: kramdown
