@@ -1,7 +1,3 @@
-html {
-  font-size: 14px;
-}
-
 body {
   font-family: 'Noto Serif', serif;
   margin: 0;
@@ -37,10 +33,8 @@ h2.section-title {
 
 .wrapper {
   max-width: 660px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
-  padding: 3.5rem 1.78rem;
+  padding: 3.5rem 25px;
 }
 
 .section-dark {
@@ -70,7 +64,7 @@ h2.section-title {
 }
 
 .header .section-title {
-  font-size: 4rem;
+  font-size: 3.5rem;
   line-height: 1.375;
   margin: 0;
 }
@@ -198,7 +192,7 @@ h2.section-title {
 }
 
 .social-media i {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   padding: 0 10px;
 }
 
@@ -243,6 +237,10 @@ footer .social-media {
     padding-right: 50px;
   }
 
+  .header .section-title {
+    font-size: 4rem;
+  }
+
   .competencies {
     text-align: left;
   }
@@ -278,10 +276,6 @@ footer .social-media {
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-
   .wrapper {
     padding-top: 9.375rem;
     padding-bottom: 9.375rem;

@@ -16,7 +16,7 @@
 title: Leolando Tan
 email: leolando.tan@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This site serves as my portfolio.
+  Resume and portfolio site of Leolando Tan: a Full Stack Acquia Certified Drupal Developer based in the Philippines.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leolandotan.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: LeolandoTan
@@ -24,6 +24,7 @@ github_username: leolandotan
 locale: en
 author:
   name: Leolando Tan
+  job_description: Full Stack Acquia Certified Drupal Developer
 google_analytics_key: UA-143414822-1
 
 # Build settings
