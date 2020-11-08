@@ -123,7 +123,7 @@ h2.section-title {
   text-transform: uppercase;
 }
 
-.certifications .description span:last-child {
+.certifications .description span:nth-child(2) {
   font-size: 1.125rem;
   line-height: 1.6;
 }
@@ -142,7 +142,8 @@ h2.section-title {
   letter-spacing: 0.04em;
 }
 
-.competencies p {
+.competencies p,
+.opensource-contribution p {
   font-size: 1.125rem;
   line-height: 1.8;
   margin-top: 10px;
@@ -153,14 +154,25 @@ h2.section-title {
   margin-bottom: 0;
 }
 
-.position {
+.position,
+.opensource-contribution ul {
   list-style: none;
   padding: 0;
   margin-bottom: 16px;
   margin-top: 5px;
 }
 
-.position li {
+.opensource-contribution ul {
+  margin-bottom: 3rem;
+}
+
+.opensource-contribution ul:last-child {
+  margin-bottom: 0;
+}
+
+.position li,
+.opensource-contribution li,
+.certifications .description span:last-child {
   font-family: 'Noto Sans', sans-serif;
   font-size: 0.875rem;
   line-height: 1.6;
@@ -180,7 +192,8 @@ h2.section-title {
   margin-bottom: 0;
 }
 
-.company h3 {
+.company h3,
+.opensource-contribution h3 {
   margin-bottom: 5px;
   font-size: 1.5rem;
   line-height: 1.6;
