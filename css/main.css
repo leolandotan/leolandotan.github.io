@@ -295,7 +295,14 @@ footer .social-media {
   }
 }
 
-
 .header--post .wrapper {
   padding: 1rem;
+}
+
+.logo img {
+  background-color: #fff;
+  max-width: 25px;
+  display: block;
+  padding: 3px;
+  border-radius: 5px;
 }
