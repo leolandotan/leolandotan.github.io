@@ -1,7 +1,15 @@
-<header class="header section-dark">
-  <div class="wrapper">
-    <h1 class="section-title">Leolando Tan</h1>
-    <p>Full-Stack and Acquia Certified Drupal Developer based in the Philippines.</p>
-    {% include socials.html %}
-  </div>
-</header>
+{% if page.layout == "post" %}
+  <header class="header header--post section-dark">
+    <div class="wrapper">
+      <a href="/">Home</a>
+    </div>
+  </header>
+{% else %}
+  <header class="header header--home section-dark">
+    <div class="wrapper">
+      <h1 class="section-title">Leolando Tan</h1>
+      <p>Full-Stack and Acquia Certified Drupal Developer based in the Philippines.</p>
+      {% include socials.html %}
+    </div>
+  </header>
+{% endif %}

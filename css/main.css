@@ -46,30 +46,30 @@ h2.section-title {
   background-color: #fafafa;
 }
 
-.header {
+.header--home {
   padding-top: 3.5rem;
   padding-bottom: 2.5rem;
 }
 
-.header .wrapper {
+.header--home .wrapper {
   padding-top: 7.1428rem;
   padding-bottom: 7.1428rem;
 }
 
 @media (min-width: 768px) {
-  .header .wrapper {
+  .header--home .wrapper {
     padding-top: 15.625rem;
     padding-bottom: 15.625rem;
   }
 }
 
-.header .section-title {
+.header--home .section-title {
   font-size: 3.5rem;
   line-height: 1.375;
   margin: 0;
 }
 
-.header p {
+.header--home p {
   font-size: 1.5rem;
   line-height: 1.667;
   margin-top: 0;
@@ -250,7 +250,7 @@ footer .social-media {
     padding-right: 50px;
   }
 
-  .header .section-title {
+  .header--home .section-title {
     font-size: 4rem;
   }
 
@@ -276,7 +276,7 @@ footer .social-media {
     margin-top: 36px;
     margin-bottom: 36px;
   }
-  
+
   footer .wrapper {
     display: flex;
     flex-direction: row-reverse;
@@ -293,4 +293,9 @@ footer .social-media {
     padding-top: 9.375rem;
     padding-bottom: 9.375rem;
   }
+}
+
+
+.header--post .wrapper {
+  padding: 1rem;
 }

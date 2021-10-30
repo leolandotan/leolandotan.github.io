@@ -5,17 +5,13 @@
 </head>
 <body>
 
-  {% if page.url == "/" %}
-    {% include header.html %}
-  {% endif %}
+  {% include header.html %}
 
   <main id="main">
     {{ content }}
   </main>
 
-  {% if page.url == "/" %}
     {% include footer.html %}
-  {% endif %}
 
 </body>
 </html>
